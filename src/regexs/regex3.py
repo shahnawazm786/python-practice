@@ -16,5 +16,5 @@ print(one_or_more_time)
 
 text2='ab abb a a a abbbb abbbbbb ac ca'
 patt2=re.compile("ab{2}")
-more_than_2=re.findall(patt2,text2)
-print(more_than_2)
+more_than_two=re.findall(patt2,text2)
+print(more_than_two)
