@@ -1,0 +1,31 @@
+You are given a list of dictionaries, where each dictionary represents a student and contains their name, scores in multiple subjects (math, science and english) and their grace marks. You are also given a function that returns the average grace marks among the data i.e. sum of grace marks of all students divided by the number of students in data.
+
+Your task it to complete the function return_mean_grace such that it returns the mean grace marks of data rounded off by 2 decimal places and decorate this function by completing the decorate decorator such that before returning the average grace marks it also prints the average marks attained by per student rounded off by 2 decimal places
+
+Input Format
+
+List[Dict]
+Output Format
+
+String : float
+Input Sample
+
+students = [
+    {"name": "Alice", "scores": {"math": 88, "science": 90, "english": 85}, "grace_marks": 10},
+    {"name": "Bob", "scores": {"math": 72, "science": 68, "english": 74}, "grace_marks": 11},
+    {"name": "Charlie", "scores": {"math": 95, "science": 92, "english": 91}, "grace_marks": 9},
+    {"name": "David", "scores": {"math": 60, "science": 75, "english": 70}, "grace_marks": 10},
+    {"name": "Eve", "scores": {"math": 82, "science": 78, "english": 88}, "grace_marks": 11}
+]
+Output Sample
+
+Alice: 87.67
+Bob: 71.33
+Charlie: 92.67
+David: 68.33
+Eve: 82.67
+10.2
+Explanation
+
+First 5 lines print the individual student name and their corresponding average marks
+last line represents the average grace_marks of complete data

@@ -1,0 +1,14 @@
+You are given a number n as input, write a higher order function function that returns another function which on execution returns the first n numbers of fibonacci sequence.
+
+Input Format
+
+n: int
+Output Format
+
+List[int]
+Input Sample
+
+10
+Output Sample
+
+[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
