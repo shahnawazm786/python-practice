@@ -18,3 +18,10 @@ text2='ab abb a a a abbbb abbbbbb ac ca'
 patt2=re.compile("ab{2}")
 more_than_two=re.findall(patt2,text2)
 print(more_than_two)
+
+print("============▶️▶️ Three to five  ▶️▶️===========")
+text3='ab abb a a a abbb abbbbb ac ca'
+patt3=re.compile(r"ab{3,5}")
+three_to_five=re.findall(patt3,text3)
+print(three_to_five)
+print("============ ❎❎❎❎❎❎❎ ===========")
