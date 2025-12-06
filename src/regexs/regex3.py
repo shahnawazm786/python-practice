@@ -11,3 +11,10 @@ text1='ab abb a a a abbbb abbbbbb ac ca'
 pat1=re.compile('ab?')
 one_or_more_time=re.findall(pat1,text1)
 print(one_or_more_time)
+
+# follow with some number
+
+text2='ab abb a a a abbbb abbbbbb ac ca'
+patt2=re.compile("ab{2}")
+more_than_2=re.findall(patt2,text2)
+print(more_than_2)
