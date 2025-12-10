@@ -1,3 +1,10 @@
+'''
+Use of donder method 
+__init__
+__add__
+__str__
+
+'''
 class Car:
     
     def __init__(self,name,milage):
