@@ -4,6 +4,7 @@ __init__
 __add__
 __str__
 __lt__
+__gt__
 '''
 class Car:
     
@@ -20,7 +21,11 @@ class Car:
     def __lt__(self,object2):
         return self.milage < object2.milage
     
+    def __gt__(self,object2):
+        return self.milage > object2.milage
+
 c=Car('THAR',20)
 print(c)
 d=Car('limorgini',120)
 print(c+d)
+print(c<d)
