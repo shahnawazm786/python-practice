@@ -4,7 +4,6 @@
 
 ## git clone https://github.com/your-username/python-practice.git
 
-
 ## Open any folder of your choice
 
 ## Run the Python programs
@@ -28,6 +27,7 @@
 🤝 Contributing
 
 ## 📢 Contributions are welcome! 📢
+
 ### If you’d like to improve, add more practice questions, or fix issues:
 
 # Fork the repo
@@ -42,6 +42,8 @@
 
 If this repository helps you, don’t forget to:
 
-⭐ Star this repo
-🔄 Fork it
-📢 Share it with others
+## ⭐ Star this repo
+
+## 🔄 Fork it
+
+## 📢 Share it with others
