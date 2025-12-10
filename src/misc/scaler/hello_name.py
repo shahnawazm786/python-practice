@@ -13,3 +13,5 @@ Output Format
 
 Print in a single line "Hello A" without quotes.
 '''
+A=input()
+print(f'Hello {A}')
