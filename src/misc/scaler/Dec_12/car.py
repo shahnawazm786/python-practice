@@ -35,6 +35,8 @@ class Car:
     def __gt__(self,object2):
         return self.milage > object2.milage
 
+    def __call__(self):
+        return f"🚀 name of car => {self.name} and giving milage is {self.milage} 🚀"
 c=Car('THAR',20)
 print(c)
 d=Car('limorgini',120)
@@ -47,3 +49,4 @@ print([c,d,e])
 print(c+d)
 print(d+e)
 print(c+d+e)
+print(c())
