@@ -15,4 +15,6 @@ Problem Constraints
 1 <= N <= 1000
 1 <= M <= N
 '''
-
+N=int(input())
+M=int(input())
+print(N-M)
