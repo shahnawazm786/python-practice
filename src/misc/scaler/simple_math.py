@@ -8,3 +8,4 @@ Perform the following operations on 6 and 3 and print their respective outputs i
 4. Double Division
 
 '''
+print(6+3)
