@@ -10,3 +10,4 @@ Perform the following operations on 6 and 3 and print their respective outputs i
 '''
 print(6+3)
 print(6-3)
+print(6*3)
