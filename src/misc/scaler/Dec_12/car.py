@@ -3,7 +3,7 @@ Use of donder method
 __init__
 __add__
 __str__
-
+__lt__
 '''
 class Car:
     
@@ -16,6 +16,9 @@ class Car:
     
     def __add__(self, object2):
         return self.milage + object2.milage
+    
+    def __lt__(self,object2):
+        return self.milage < object2.milage
     
 c=Car('THAR',20)
 print(c)
