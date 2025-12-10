@@ -11,3 +11,7 @@ Output Format
 Print in a single line denoting the total number of bills that can fit in the total budget.
 
 '''
+N=float(input())
+M=int(input())
+bills=N//M
+print(bills)
