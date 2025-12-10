@@ -8,3 +8,20 @@ Problem Constraints
 Characters in A and B are in lowercase English Alphabets.
 
 '''
+'''
+Example Input
+
+Input:-
+Ram
+Shyam
+
+
+Example Output
+
+Output:-
+Ram says Hi to Shyam
+'''
+
+A=input()
+B=input()
+print(f"{A} says Hi to {B}")
