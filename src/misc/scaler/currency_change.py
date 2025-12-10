@@ -15,6 +15,10 @@ Problem Constraints
 1 <= N <= 1000
 1 <= M <= N
 '''
+'''
+Explanatioins
+Note: The problem constraints mean that when we test your code, the test cases used in the backend can have input values only within those constraints. You need not implement them in your code. You must ensure your code will work for all such input values!
+'''
 N=int(input())
 M=int(input())
 print(N-M)
