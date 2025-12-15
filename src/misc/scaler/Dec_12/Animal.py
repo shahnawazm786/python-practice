@@ -7,4 +7,7 @@ class Animal:
     def speaks(self):
         print(f'{self.name} speaks {self.speak}')
     
-        
+    def __str__(self):
+        return f'{self.name} is {self.speak}'
+    
+            
