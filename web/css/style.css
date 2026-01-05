@@ -1,0 +1,9 @@
+.hero {
+  background: linear-gradient(to right, #b30000, #ff4d4d);
+  padding: 100px 0;
+}
+
+.card img {
+  height: 200px;
+  object-fit: contain;
+}
