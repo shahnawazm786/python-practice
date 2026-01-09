@@ -1,8 +1,8 @@
 import csv 
-import json
+
 '''
 @csvFilePath - CSV file location
-@jsonFilePath - JSON file location
+
 '''
 def read_from_csv_add_into_json(csvFilePath):
     data=[]
