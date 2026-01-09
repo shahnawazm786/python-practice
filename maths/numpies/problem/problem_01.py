@@ -22,4 +22,4 @@ P.s: Recall that we can have float step size in numpy array
 import numpy as np
 
 arr=np.arange(5,10,.5)
-print(arr)
+print(np.round(arr,2))
