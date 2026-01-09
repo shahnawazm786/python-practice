@@ -5,3 +5,6 @@ import numpy as np
 arr = np.array([10, 20, 30, 40, 50])
 He wants to change the data type from integer to float.Which of the following is the correct approach to do so?
 '''
+import numpy as np
+arr = np.array([10, 20, 30, 40, 50])
+print(arr.astype('float64'))
