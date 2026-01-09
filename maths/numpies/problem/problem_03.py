@@ -1,0 +1,7 @@
+'''
+Raghu has created a numpy array arr using the following code:
+
+import numpy as np
+arr = np.array([10, 20, 30, 40, 50])
+He wants to change the data type from integer to float.Which of the following is the correct approach to do so?
+'''
