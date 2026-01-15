@@ -11,3 +11,5 @@ res1=[i**2 for i in a]
 print(res1)
 end=time.time()
 print(end-start,'seconds')
+lst=list(np.arange(1,10,2.5))
+print(lst)
