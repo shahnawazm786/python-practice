@@ -18,7 +18,7 @@ print(f'📌 Dimension of array->\t{array_2D.ndim}')
 print(f'📌 Element of array ->\t{array_2D.size}')
 print(f'📌 Shape of array ->\t {array_2D.shape}')
 
-array_3D= np.array([array_1D,array_2D])
+array_3D= np.array([[array_1D,array_1D,array_1D]])
 print(f'⭐ Array')
 print(array_3D)
 print('🚨 Details of 3D array')
