@@ -1,0 +1,22 @@
+Create a sequence of a given length from a given start point, where the difference between 2 consecutive elements of the expected sequence is also given as step.
+
+Input Format:
+
+One line of input will have 3 space-separated integers consisting of start, length of sequence and step between two continuous elements of the sequence.
+Output Format:
+
+A numpy array of integers
+Sample Input:
+
+5 10 3
+Sample Output:
+
+[5 8 11 14 17 20 23 26 29 32]
+Sample explanation:
+
+Start of the sequence = 5, length of the sequence = 10 and step = 3.
+
+First point would be the start point only, second point = start + 1*step = 5 + 1*3 =8, ....... 10th point = start + (10-1)*step = 5 + 9*3 = 32
+
+
+Note: You can use either .arange() or .linspace() to solve this question.
