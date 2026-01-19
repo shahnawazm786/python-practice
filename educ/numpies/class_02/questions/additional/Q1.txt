@@ -1,0 +1,14 @@
+Mark the options which are true about the outputs for code snippets a and b.
+
+Code Snippet a:
+
+import numpy as np
+x = np.array([[200,200,200],[300,300,300],[400,400,400]])
+v = np.array([200,300,400])
+print((x / v[:,None])[1][1]) 
+Code Snippet b:
+
+import numpy as np
+p = np.array([[0], [10], [20]])
+q = np.array([10, 11, 12]) 
+print((p + q)[1][1]) 

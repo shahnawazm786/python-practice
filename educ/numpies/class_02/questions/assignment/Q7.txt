@@ -1,0 +1,7 @@
+import numpy as np
+arr = 2 * np.arange(0,2,0.5)
+if arr <= 0.6:
+    print("condition satisfies")
+else:
+    print("condition doesn't satisfy") 
+In the above code, 'condition' implies the situation that arr has at least one value smaller than or equal to 0.6. Which option is true with respect to the code and condition?

@@ -1,0 +1,5 @@
+What would be the output for the following code :
+
+import numpy as np
+arr = np.array([1, 2, 3, 4])
+print(arr[2] + arr[-2])
