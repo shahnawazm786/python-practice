@@ -4,3 +4,4 @@ print(arr)
 print(type(arr))
 array_1D=np.array(arr,dtype="float")
 print(array_1D)
+
