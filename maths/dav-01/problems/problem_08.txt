@@ -1,0 +1,30 @@
+Problem Statement:
+
+You are given a numpy array containing marks of students in a class. The student gets distinction or first-division on the basis of the below criteria.
+
+marks >= 80 : Distinction
+
+60 <= marks < 80 : First Division
+
+Find the ratio of number of students who got distinction to the number of students who got first division.
+
+
+Input Format: (NOTE: No need to take the input explicitly — the input-handling code is already in place.)
+
+A numpy array
+
+Output Format:
+
+A float number.
+
+Sample Input:
+
+array([20, 35, 68, 82, 83, 70, 90])
+
+Sample Output:
+
+1.5
+
+Sample Explanation:
+
+Distinction marks are 82, 83 and 90. So, 3 distinctions. First division marks are 68, 70. So 2 first divisions. Ratio = 3/2 = 1.5.
