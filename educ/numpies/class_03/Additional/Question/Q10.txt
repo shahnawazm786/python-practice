@@ -1,0 +1,47 @@
+Given an MxN 2D array (M >= 4),
+
+Split the array column wise such that,
+
+1st sub array contains the first 2 columns
+2nd sub array contains the 3rd column
+3rd sub array contains the rest of the columns
+Input Format: (NOTE: No need to take the input explicitly — the input-handling code is already in place.)
+
+A 2D array
+Output Format:
+
+List of arrays
+Sample Input:
+
+[[0, 1, 2, 3],
+ [4, 5, 6, 7],
+ [8, 9, 10, 11],
+ [12, 13, 14, 15],
+ [16, 17, 18, 19],
+ [20, 21, 22, 23]]
+Sample Output:
+
+[
+array([[ 0,  1],
+       [ 4,  5],
+       [ 8,  9],
+       [12, 13],
+       [16, 17],
+       [20, 21]]), 
+array([[ 2],
+       [ 6],
+       [10],
+       [14],
+       [18],
+       [22]]), 
+array([[ 3],
+       [ 7],
+       [11],
+       [15],
+       [19],
+       [23]])]
+Output explanation:
+
+Here, the first sub-array contains the first two columns of the input array.
+Second sub-array contains the third column of the input array.
+Third sub-array contains the rest of the columns, i.e the fourth column of the input array.
