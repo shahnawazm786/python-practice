@@ -1,0 +1,32 @@
+You are given the following:
+
+A 2D Numpy array (data) representing a grayscale image, where pixel values range from 0 (black) to 255 (white).
+A desired number of horizontal splits (num_splits).
+Tasks:
+
+Split the image to divide the image array (data) evenly into num_splits horizontal sections.
+Rearrange sections: Create a new array by concatenating the image sections in the following order:
+The last section moves to the first position.
+All other sections shift downwards by one position.
+Return the modified array
+Input format: (NOTE: No need to take the input explicitly — the input-handling code is already in place.)
+
+data: np.array
+num_splits: int
+Output format:
+
+np.array
+Input Sample
+
+data = np.array([[10, 20, 30],
+                 [40, 50, 60],
+                 [70, 80, 90],
+                 [100, 110, 120]])
+
+num_splits = 2
+Output Sample
+
+[[ 70  80  90]
+ [100 110 120]
+ [ 10  20  30]
+ [ 40  50  60]]
