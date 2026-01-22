@@ -1,0 +1,25 @@
+Problem statement:
+
+Given an 1D array and an integer k that specifies the number of equal parts to split the array into,
+
+Perform the following operations:
+
+Split the array into k number of equal parts.
+Return the list of split arrays.
+Assumption: The array can be split into k equal parts
+
+Note: Recall how to split an array into equal parts.
+
+Input Format:
+
+Line separated numpy array and split count 
+Output Format:
+
+List of numpy arrays
+Sample Input:
+
+arr = [0,1,2,4,5,6,7,8]
+k = 3
+Sample Output:
+
+[array([0, 1, 2]), array([3, 4, 5]), array([6, 7, 8])]
