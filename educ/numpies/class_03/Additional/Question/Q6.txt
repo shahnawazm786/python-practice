@@ -1,0 +1,24 @@
+Problem Statement:
+
+Given a NumPy array of shape (n,m). Add padding of a layer of 0’s on all 4 boundaries of the matrix.
+
+Input Format: (NOTE: No need to take the input explicitly — the input-handling code is already in place.)
+
+First line will be consisting of two space-separated integers representing n and m.  
+There will be n lines of input consisting of m space-separated integers representing the elements of rows of the array.
+Output Format:
+
+A 2d numpy array.
+Sample Input:
+
+3 2  
+1 2  
+3 4  
+5 6
+Sample Output:
+
+[[0 0 0 0]
+ [0 1 2 0]
+ [0 3 4 0]
+ [0 5 6 0]
+ [0 0 0 0]]
