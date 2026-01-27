@@ -1,0 +1,30 @@
+Problem Description:
+
+Given a dataframe containing transaction data sorted in order of transaction date, and row range r1 (start index) and r2 (end index).
+
+Filter out the rows between r1 and r2 (r2 is exclusive).
+Complete the function select_rows() to do the same, with dataframe and r1 and r2 values provided to the function.
+Return only the "name" and "amt" columns from the filtered dataframe.
+Input Format: (NOTE: No need to take the input explicitly — the input-handling code is already in place.)
+
+First line of the input contains the dataframe.
+Next two lines contain the value of r1 and r2 respectively.
+Output Format:
+
+The selected rows of dataframe as per r1 and r2.
+
+Sample Input:
+
+
+
+r1 = 1
+
+r2 = 3
+
+Sample Output:
+
+
+
+Sample Explanation:
+
+We selected only rows 1 and 2, excluding 3, in the original dataset.
