@@ -1,5 +1,0 @@
-Given a numpy array,
-
-arr : array([10, 12, 15, 17, 2, 5, 4, 6])
-
-Which of the following is NOT the correct way to access the values at even indices (0,2,4...)?
