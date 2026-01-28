@@ -21,3 +21,13 @@ print("🔥 show 5 records from bottom")
 print(data.tail())
 print()
 
+# row and cloumn count
+print("🔥 show the number of row of the data set")
+print(data.shape[0])
+print()
+print("🔥 show the number of columns of the data set")
+print(data.shape[1])
+print()
+print("🔥 combined row and columns")
+print(data.shape)
+print()
