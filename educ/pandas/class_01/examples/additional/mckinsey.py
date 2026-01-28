@@ -1,17 +1,23 @@
 import pandas as pd
 import os
 
-print(os.getcwd())
+#print(os.getcwd())
 
 DIR_PATH=os.getcwd().replace("\\","/");
 FILE_PATH='/educ/pandas/class_01/examples/additional/mckinsey.csv'
-
+print("✒️  Path Setup ✒️")
 DATA_PAHTS=DIR_PATH + FILE_PATH;
-print(DATA_PAHTS)
-
-# show first 5 records 
+#print(DATA_PAHTS)
+print()
+print("📋 reading data from mckinsey.csv file")
 data=pd.read_csv(DATA_PAHTS)
+print("🚨 reading data completed\n")
+print("🌟 Data operation has been started\n")
+print("🔥 show first 5 records")
 print(data.head())
-
-
+print()
+# show last 5 records
+print("🔥 show 5 records from bottom")
+print(data.tail())
+print()
 
