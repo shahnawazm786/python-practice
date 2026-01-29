@@ -31,3 +31,13 @@ print()
 print("🔥 combined row and columns")
 print(data.shape)
 print()
+print("🔥 Metadata about the dataset")
+print(data.info())
+
+print("🔥 Column of the dataset")
+print(data.columns)
+
+
+
+
+
