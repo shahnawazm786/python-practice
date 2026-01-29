@@ -1,0 +1,4 @@
+merging data 
+combine side by side
+on=''
+how=left|right|inner
