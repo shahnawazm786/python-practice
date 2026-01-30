@@ -1,0 +1,27 @@
+In the above-given dataframe, usernames are the display names of the learner's accounts shown on a video-conferencing app when taking classes.
+
+The instructor clearly said to the learners that usernames must contain the real name (name) of the learners.
+
+We tried to print the userid of the learners who haven't followed the instruction:
+
+def check(name,username):
+    return name.lower() in username
+ 
+df[~(df.apply(lambda x:check(x['name'],x['username']), axis=0))]['userid']
+
+Note: 'username' will be in lowercase.
+
+We found that we are not getting the required results using the code, what can be the reason here?
+
+
+Use the code below in order to create the given dataframe:
+
+import pandas as pd
+
+data = {
+    'name': ['Jim', 'Clarke', 'Kent', 'Mark'],
+    'username': ['itsjimhere', 'clark002', 'itskentment', 'markyoumustknow'],
+    'userid': [20, 10, 86, 21]
+}
+
+df = pd.DataFrame(data)
