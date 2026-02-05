@@ -1,3 +1,4 @@
 You need to find out all the rows containing one or more NaN values in a dataframe df.
 
 Choose the correct code that will do the job in Pandas.
+
