@@ -23,4 +23,3 @@ print(james_data.info())
 #between_2005_and_2010=james_data[james_data['year']>=2005 and james_data['year']<=2010]
 #print(between_2005_and_2010)
 print(james_data[(james_data['year']>=2005) & (james_data['year']<=2010)])
-

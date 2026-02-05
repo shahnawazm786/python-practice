@@ -1,0 +1,31 @@
+You are given two DataFrames:
+
+movies with columns: movie id, title, year, director id
+directors with columns: id, director_name
+How would you correctly retrieve the names of all distinct directors who have directed movies since 2010 (inclusive)?
+
+Movies: Link
+
+Directors: Link
+
+Options:
+
+A.
+
+sample = movies[movies["year"] >= 2010] 
+ids = sample["directorid"].unique() 
+names = directors[directors["id"].isin(ids)]["directorname"]
+B.
+
+sample = movies[movies["year"] >= 2010] 
+ids = sample["directorid"] 
+names = directors[directors["id"] == ids]["directorname"]
+C.
+
+sample = movies[movies["year"] > 2010] 
+ids = sample["directorid"].unique() 
+names = directors[directors["id"].isin(ids)]["directorname"]
+D.
+
+ids = movies["directorid"].unique() 
+names = directors[directors["id"].isin(ids) & (movies["year"] >= 2010)]["directorname"]
