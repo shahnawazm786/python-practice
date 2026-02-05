@@ -16,4 +16,4 @@ print(df.isin([101,102,120]))
 print(df.isin({'cust_id':[101,102,120]}))
 print(df.isin(df.cust_id))
 print(df.cust_id)
-print(df.name.isin('rick'))
+print(df.name.isin('rick')) # string 
