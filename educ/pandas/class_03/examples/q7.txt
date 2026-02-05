@@ -1,0 +1,4 @@
+Pick the correct statement(s) for the following code snippet.
+
+def func(df): 
+    return df.fillna(1, inplace=True)
