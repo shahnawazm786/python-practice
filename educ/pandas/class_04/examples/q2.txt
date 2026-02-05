@@ -1,0 +1,3 @@
+Using the movies data set, select the correct snippet that gives the release date in Day, Month, Year format.
+
+Example Date format: Thursday-Dec-2009
