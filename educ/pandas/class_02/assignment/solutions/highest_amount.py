@@ -18,4 +18,4 @@ print(df)
 df['Total_Price']=df['Price'] * df['Quantity']
 print(df.columns)
 customer_invoice_number=df.groupby(['Invoice','Customer ID'])['Total_Price'].sum()
-print(customer_invoice_number.sort_values(ascending=False).max())
+print(customer_invoice_number.sort_values(ascending=False))
