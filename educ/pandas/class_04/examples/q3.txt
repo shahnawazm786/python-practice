@@ -1,0 +1,2 @@
+What is the % of male directors in the given data?
+
