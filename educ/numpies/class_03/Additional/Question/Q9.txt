@@ -1,0 +1,26 @@
+What will be the output of following code?
+
+import numpy as np
+arr = np.arange(16).reshape(4,4)  
+print(np.split(arr,4))
+A.
+
+Error
+B.
+
+[array([[ 0, 4, 8, 12]]),
+ array([[ 1, 5, 9, 13]]),
+ array([[ 2, 6, 10, 14]]),
+ array([[ 3, 7, 11, 15]])]
+C.
+
+[array([[0, 1, 2, 3]]),
+ array([[4, 5, 6, 7]]),
+ array([[ 8, 9, 10, 11]]),
+ array([[12, 13, 14, 15]])]
+D.
+
+[array([[1, 2, 3, 4]]),
+ array([[5, 6, 7, 8]]),
+ array([[ 9, 10, 11, 12]]),
+ array([[13, 14, 15, 16]])]

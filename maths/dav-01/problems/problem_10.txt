@@ -1,0 +1,15 @@
+Problem statement:
+
+Given an array, return the shape and dimension of the array.
+Input Format:
+
+A numpy array
+Output Format:
+
+A Tuple (shape, dim)
+Sample Input:
+
+[0 1 2 3 4 5]
+Sample Output:
+
+((6,), 1)

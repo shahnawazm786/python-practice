@@ -1,0 +1,23 @@
+Display the name of the director who directed the Spider-Man 3 movie.
+
+Movies: Link
+
+Directors: Link
+
+Options:
+
+A.
+
+data.loc[data["title"] == "Spider-Man 3", "director_name"]
+B.
+
+data[data["title"] == "Spider-Man 3"]["directorname"].valuecounts()
+C.
+
+directors[directors['id'] == data[data['title'] == 'Spider-Man 3']['directorid'].iloc[0]]['directorname']
+D.
+
+data.query("title == 'Spider-Man 3'").get('director_name')
+E.
+
+data[data["title"] == "Spider-Man 3"]["director_name"]

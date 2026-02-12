@@ -1,0 +1,1 @@
+How many different movies were directed in the year 2010?

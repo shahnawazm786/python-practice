@@ -1,0 +1,33 @@
+As an educational institute, you need to keep a track of all the registered students.
+
+Here you're given the registration IDs and the corresponding dates of a batch of students.
+
+You need to return a DataFrame containing the columns as follows:
+
+RID: Id of the student
+RDate: Date of joining of the student
+RMonth: Month of joining of the student
+RYear: Year of joining of the student
+RDay: Day of joining of the student
+Input Format: (NOTE: No need to take the input explicitly — the input-handling code is already in place.)
+
+Number of testcases.
+For each testcase there will be two lines of input.
+First-line contains the registration IDs of the students, and the following line contains the corresponding registration dates.
+Output Format:
+
+Just complete the function that returns a Pandas dataframe object containing the columns mentioned. 
+Sample Input:
+
+1
+56 92 29 93 55 32 
+2021-01-01 2021-02-12 2021-04-16 2021-01-22 2021-01-15 2021-02-26 
+Sample Output:
+
+
+
+Sample Explanation:
+
+For 1 test case, here we are given two input lists.
+First one consisting of the registration ids and the second one consists of the registration dates of the corresponding registration ids.
+Here through the solve function, a dataframe is returned which consists of columns RID, RDate, RMonth, RYear, RDay.
