@@ -1,45 +1,49 @@
-🚀 How to Use This Repository
+# 🚀 How to Use This Repository
 
-Clone the repository
+### Clone the repository
 
-git clone https://github.com/your-username/python-practice.git
+## git clone https://github.com/your-username/python-practice.git
 
+## Open any folder of your choice
 
-Open any folder of your choice
+## Run the Python programs
 
-Run the Python programs
+## Try modifying or improving solutions
 
-Try modifying or improving solutions
+# Add your own programs and push updates
 
-Add your own programs and push updates
+🚨🚨🚨🚨🚨🚨🚨
 
 🧠 Who Can Use This?
 
-🟢 Beginners
+📌 🟢 Beginners
 
-🟡 Intermediate learners
+📌 🟡 Intermediate learners
 
-🔵 Students preparing for exams
+📌 🔵 Students preparing for exams
 
-🔴 Developers preparing for interviews
+📌 🔴 Developers preparing for interviews
 
 🤝 Contributing
 
-Contributions are welcome!
-If you’d like to improve, add more practice questions, or fix issues:
+## 📢 Contributions are welcome! 📢
 
-Fork the repo
+### If you’d like to improve, add more practice questions, or fix issues:
 
-Create a new branch
+# Fork the repo
 
-Commit your changes
+## Create a new branch
 
-Open a pull request
+## Commit your changes
+
+## Open a pull request
 
 ⭐ Show Your Support
 
 If this repository helps you, don’t forget to:
 
-⭐ Star this repo
-🔄 Fork it
-📢 Share it with others
+## ⭐ Star this repo
+
+## 🔄 Fork it
+
+## 📢 Share it with others

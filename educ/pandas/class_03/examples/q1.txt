@@ -1,0 +1,13 @@
+Consider a dataset containing information about student's performance in various subjects, structured as follows:
+
+
+
+Suppose you want to reshape this dataset to analyze the average performance across subjects for each student. Which of the following approaches using Pandas' melting functionality is appropriate for achieving this?
+
+A. Melting the dataset using 'Student_ID' as the identifier variable and 'Subject' as the variable to unpivot, then computing the mean of the 'Score' column.
+
+B. Melting the dataset using 'Subject' as the identifier variable and 'Student_ID' as the variable to unpivot, then computing the mean of the 'Score' column.
+
+C. Melting the dataset using 'Score' as the identifier variable and 'Student_ID' as the variable to unpivot, then computing the mean of the 'Subject' column.
+
+D. None of the above

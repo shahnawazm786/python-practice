@@ -1,0 +1,20 @@
+Problem Description:
+
+Given a list of birds and their corresponding age, calculate the mean age of the Crane bird (rounded off to 2 decimal points)
+Input Format:
+
+Two 1D array list i.e. bird array and age array
+Output Format:
+
+Float value representing mean age of crane birds
+Sample Input:
+
+birds = ['spoonbills',  'plovers',  'plovers',  'plovers',  'plovers',  'Cranes',  'plovers',  'plovers',  'Cranes',  'spoonbills']
+age = [5.5, 6.0, 3.5, 1.5, 3.0, 4.0, 3.5, 2.0, 5.5, 6.0]
+Sample Output:
+
+4.75
+Note:
+
+To round off the result, use np.round()
+Documentation link: np.round()

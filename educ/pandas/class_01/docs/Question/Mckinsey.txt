@@ -1,0 +1,15 @@
+-- index (change and reset)
+-- loc and iloc
+-- setting index icremental
+-- concat() # rows combined / adding rows
+--- Note - iloc is positional meaning if the rows index exist we can perform operation otherwise it would not work (for new row index)
+--- iloc is not used for adding rows 
+drop() - rows or column
+duplicated() - to know the duplicate rows 
+drop_duplicates(keep='first') / drop_duplicates(keep='last') / drop_duplicates(keep=False)
+-- slicing df.loc[0:4,"country":"population"]
+df.loc[0:4,"country":"population":2]
+-- sorting  df.sort_value(by="year",ascending=False)
+df.sort_value(by=["year",'life_exp"],ascending=[False,True],inplace=True)
+-- pandas in-built operation
+
