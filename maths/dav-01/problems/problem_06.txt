@@ -1,0 +1,19 @@
+Problem Statement:
+
+Given a 2D numpy array, return array with its values in the column reversed.
+Input Format:
+
+A 2D numpy array
+Output Format:
+
+A 2D numpy array
+Sample Input:
+
+[[0, 1, 2], 
+ [3, 4, 5], 
+ [6, 7, 8]]
+Sample Output:
+
+[[2, 1, 0], 
+ [5, 4, 3], 
+ [8, 7, 6]]

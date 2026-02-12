@@ -1,0 +1,31 @@
+Problem Statement:
+
+Given a numpy array and target value k,
+
+Return True if all elements of array satisfy all below given conditions
+
+Multiple of 2
+Greater than k
+Input Format:
+
+The input has two lines
+First line is the array
+Second line is the integer value k
+Output Format:
+
+Boolean value i.e. True or False
+Sample Input:
+
+[0, 1, 2, 3, 4, 5, 6, 7, 8]
+3
+Sample Output:
+
+False
+Sample Input:
+
+[8, 12, 16, 20]
+4
+Sample Output:
+
+True
+Note: Recall logical functions in numpy

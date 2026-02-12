@@ -1,0 +1,60 @@
+Data Visualization - 2
+Agenda:
+In today’s session, we’ll cover essential topics, including:-
+
+ 
+Bivariate Data Visualization
+
+Continuous-Continuous
+
+Line plot
+
+Styling and Labelling
+
+Scatter plot
+
+Categorical-Categorical
+
+Dodged countplot
+
+Stacked countplot
+
+Categorical-Continuous
+
+Boxplot
+
+Bar plot
+
+Subplots
+
+ 
+Lecture Summary (Data Visualization - 1):
+
+Introduction to Matplotlib & Seaborn
+Learned the purpose of visualization (exploratory vs explanatory).
+
+Understood the differences between Matplotlib (customizable, low-level) and Seaborn (built on top of Matplotlib, easier, aesthetically richer).
+
+Covered essential components of a Matplotlib figure: Figure, Axes, Axis, labels, ticks, legends, and plot titles.
+
+Univariate Visualization — Categorical Data
+
+Bar Chart using plt.bar() and sns.countplot() to visualize category frequencies.
+
+Improved readability using figure size, rotation, colors, labels, titles, and plt.show().
+
+Pie Chart to compare proportions of categories (e.g., regional sales distribution).
+
+Univariate Visualization — Numerical Data
+
+Histogram for understanding distribution, skewness, and frequency of numerical data.
+
+Learned bin customization, extracting counts and bin edges, and Seaborn’s histplot.
+
+KDE Plot (sns.kdeplot) for smooth density estimation instead of histogram bars.
+
+Boxplot for Distribution & Outliers
+
+Used sns.boxplot to visualize median, quartiles, IQR, whiskers, and outliers.
+
+Understood five-number summary and how boxplots highlight spread and extreme values.
