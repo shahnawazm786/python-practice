@@ -1,0 +1,10 @@
+Instructions:
+File Format: Only PDF files are allowed for submission.
+File Size Limit: The PDF must be less than 20MB in size.
+For Google Collab Users:
+To submit your Colab work, download it as a PDF by navigating to File > Print > Save as PDF before uploading.
+Please note: Submitting a PDF containing a Colablink is not accepted and your submission will not be accepted
+For Text-Based Submissions:
+Use Google Docs or MS Word to create the document
+Save it as a PDF before submitting
+Single Submission Policy: Only one submission is allowed per user.
